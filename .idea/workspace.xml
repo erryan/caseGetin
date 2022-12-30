@@ -8,13 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e9f4c6e-b0e6-4fb8-be48-f3720d52033c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getin/CucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getin/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getin/rest/RestStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getin/rest/core/ApiGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/getin/rest/core/ApiProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/rest/restCases.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getin/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getin/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getin/rest/RestStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getin/rest/RestStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/rest/restCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/rest/restCases.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-getin.CucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-getin.CucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getin.CucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/getin.CucumberTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/getin/rest/RestStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/getin/rest/RestStepDefs.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1672426530869" duration="392000" />
       <workItem from="1672426959666" duration="7000" />
       <workItem from="1672426998511" duration="47000" />
-      <workItem from="1672427075969" duration="9887000" />
+      <workItem from="1672427075969" duration="13185000" />
     </task>
     <servers />
   </component>

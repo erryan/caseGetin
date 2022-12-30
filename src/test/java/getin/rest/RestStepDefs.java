@@ -13,9 +13,25 @@ public class RestStepDefs {
         return ApiProvider.getInstance();
     }
 
+    public String getToken() {
+        this.apiGateway().setHeader("Accept", "*/*");
+        this.apiGateway().setHeader("Content-Type", "application/json");
+        this.apiGateway().setBody("   {\n" +
+                "      \"phoneNumber\": \"+905054881393\",\n" +
+                "      \"password\": \"Cc123-\"\n" +
+                "    }");
+        this.apiGateway().sendRequest("/identity/user/login", HttpMethod.POST);
+        return (String) apiGateway().getJsonPathValue("$.data.tokenInformation.token");
+    }
+
     @Given("^I set (.*) header to (.*)$")
     public void header(String headerName, String headerValue) {
         this.apiGateway().setHeader(headerName, headerValue);
+    }
+
+    @Given("^I set Authorization token$")
+    public void headerAuthorization() {
+        this.apiGateway().setHeader("Authorization", "Bearer " + getToken());
     }
 
     @Given("^I set body to:$")
