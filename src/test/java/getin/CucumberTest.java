@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @CucumberOptions(
         features = "src/test/resources",
         glue = {"getin"},
-        plugin = "pretty")
-@SpringBootTest(classes = TestApplication.class, webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
+        plugin = {"pretty","junit:target/junitreport.xml","json:target/jsonreport.json","html:target/cucumber-reports"})
+@SpringBootTest(classes = TestApplication.class)
 public class CucumberTest {
 }

@@ -1,6 +1,5 @@
 package getin.rest.core;
 
-import com.google.gson.stream.JsonReader;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.Predicate;
 import com.jayway.jsonpath.ReadContext;

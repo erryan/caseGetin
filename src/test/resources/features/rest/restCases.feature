@@ -1,3 +1,4 @@
+@restTest
 Feature: Apı Test
 
   Scenario: Login Service Test Case
