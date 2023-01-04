@@ -8,13 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e9f4c6e-b0e6-4fb8-be48-f3720d52033c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/BStackSampleApp.ipa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/getin/appium/core/AppDriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-getin.CucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-getin.CucumberTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/getin.CucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/getin.CucumberTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getin/CucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getin/CucumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getin/appium/AppPageObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getin/appium/AppPageObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getin/appium/AppiumStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/getin/appium/AppiumStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/getin/appium/core/AppDriverProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/appium/appiumTestCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/appium/appiumTestCases.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/capabilities" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="src in caseGetin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
