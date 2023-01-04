@@ -10,7 +10,9 @@ mvn test
 
 * run the appium tests:
 ```
- run: ./script.sh
+ run: ./script.sh 
+ or
+ run:  mvn test -Dcucumber.filter.tags="@appiumTest" 
 ```
 
 * test report outputs:

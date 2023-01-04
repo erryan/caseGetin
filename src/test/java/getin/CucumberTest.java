@@ -13,7 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources",
-        glue = {"getin"},
+        glue = {"getin","getin.rest","getin.appium"},
         plugin = {"pretty","junit:target/junitreport.xml","json:target/jsonreport.json","html:target/cucumber-reports"})
 @SpringBootTest(classes = TestApplication.class)
 public class CucumberTest {
